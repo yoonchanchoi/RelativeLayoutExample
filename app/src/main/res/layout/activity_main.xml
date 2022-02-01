@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#2196F3"
+        android:textSize="20sp"
+        android:text="제롱동이 덥다"/>
+
+    <TextView
+        android:id="@+id/te_2"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="제롱동이 플젝하고 싶다"/>
+    <!--alignParentBottom 부모의 아래에 해당 코드를 삭제하면 아에 중앙으로 온다 center에 의해서-->
+    <!-- centerInParent=true 가운데 정렬-->
+
+    <TextView
+        android:id="@+id/te_3"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="제롱동이 플젝하고 싶다"/>
+    <TextView
+        android:id="@+id/te_4"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="제롱동이 플젝하고 싶다"/>
+    <TextView
+        android:id="@+id/te_5"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="제롱동이 플젝하고 싶다"/>
+    <TextView
+        android:id="@+id/te_6"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="제롱동이 플젝하고 싶다"/>
+    <TextView
+        android:id="@+id/te_7"
+        android:layout_width="wrap_content"
+        android:layout_above="@id/te_3"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content"
+        android:text="제롱동이 칼퇴좀"/>
+
+
+
+</RelativeLayout>
